@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: telegram-bot-autodelete
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: ./start.sh
+    envVars:
+      - key: API_TOKEN
+        value: 7598419625:AAFY46TkGTdOpzggcVPGXUtLolmuQl60i8Y
